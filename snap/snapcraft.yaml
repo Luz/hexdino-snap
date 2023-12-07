@@ -1,5 +1,4 @@
 name: hexdino
-title: hexdino
 base: core22
 version: 0.1.3
 license: MIT
@@ -10,9 +9,12 @@ description: |
 confinement: devmode
 
 parts:
+  rust-deps:
+    plugin: nil
   hexdino:
     plugin: rust
     source: https://github.com/Luz/hexdino.git
+  after: [rust-deps]
 
 apps:
   hexdino:
