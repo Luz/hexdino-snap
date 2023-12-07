@@ -9,12 +9,10 @@ description: |
 confinement: devmode
 
 parts:
-  rust-deps:
-    plugin: nil
   hexdino:
     plugin: rust
+    build-packages: [cargo]
     source: https://github.com/Luz/hexdino.git
-    after: [rust-deps]
 
 apps:
   hexdino:
