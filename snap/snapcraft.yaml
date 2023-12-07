@@ -1,7 +1,7 @@
 name: hexdino
 title: hexdino
 base: core22
-icon: https://raw.githubusercontent.com/Luz/hexdino/master/logo.png
+icon: snap/logo.png
 version: 0.1.3
 license: MIT
 website: https://github.com/Luz/hexdino
